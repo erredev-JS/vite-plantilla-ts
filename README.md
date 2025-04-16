@@ -6,7 +6,7 @@
 Esta es una plantilla mínima de Vite con React, pensada para empezar desde cero sin contenido de ejemplo ni estilos preinstalados.
 
 Ideal para desarrolladores que quieren una base limpia para sus proyectos.
-
+```
 ---
 
 ## 🚀 ¿Qué incluye?
