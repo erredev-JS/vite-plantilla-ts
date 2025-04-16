@@ -58,6 +58,5 @@ vite-plantilla-ts/
 MIT — libre para usar y modificar.
 ```
 
----
 
-¿Querés que lo prepare ya con tu nombre de usuario y nombre de repo si me lo pasás? Te lo dejo personalizado y copiable.
+
