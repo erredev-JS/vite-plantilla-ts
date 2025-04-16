@@ -1,54 +1,63 @@
-# React + TypeScript + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
+```md
+# 🧪 Plantilla Vite + React (vacía)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Esta es una plantilla mínima de Vite con React, pensada para empezar desde cero sin contenido de ejemplo ni estilos preinstalados.
 
-## Expanding the ESLint configuration
+Ideal para desarrolladores que quieren una base limpia para sus proyectos.
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+---
 
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
+## 🚀 ¿Qué incluye?
+
+- ⚛️ React
+- ⚡️ Vite
+- TypeScript
+- Estructura básica con `main.tsx` y `App.tsx`
+- HTML limpio sin estilos ni contenido de boilerplate
+
+---
+
+## 📦 Instalación
+
+```bash
+git clone https://github.com/erredev-JS/vite-plantilla-ts.git
+cd vite-plantilla-ts
+npm install
+npm run dev
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+---
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+## 📄 Estructura del proyecto
 
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
 ```
+vite-plantilla/
+├── public/
+├── src/
+│   ├── App.jsx
+│   └── main.jsx
+├── index.html
+├── package.json
+└── vite.config.js
+```
+
+---
+
+## 🧪 Crear un nuevo proyecto desde esta plantilla
+
+1. Entrá a este repositorio en GitHub
+2. Hacé clic en **Use this template**
+3. Elegí el nombre del nuevo proyecto y ¡listo!
+
+---
+
+## 📝 Licencia
+
+MIT — libre para usar y modificar.
+```
+
+---
+
+¿Querés que lo prepare ya con tu nombre de usuario y nombre de repo si me lo pasás? Te lo dejo personalizado y copiable.
