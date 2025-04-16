@@ -56,7 +56,7 @@ vite-plantilla-ts/
 ## 📝 Licencia
 
 MIT — libre para usar y modificar.
-```
+
 
 
 
