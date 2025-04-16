@@ -33,7 +33,7 @@ npm run dev
 ## 📄 Estructura del proyecto
 
 ```
-vite-plantilla/
+vite-plantilla-ts/
 ├── public/
 ├── src/
 │   ├── App.jsx
