@@ -1,7 +1,7 @@
 
 
 ```md
-# 🧪 Plantilla Vite + React (vacía)
+# 🧪 Plantilla Vite + React + TypeScript (vacía)
 
 Esta es una plantilla mínima de Vite con React, pensada para empezar desde cero sin contenido de ejemplo ni estilos preinstalados.
 
